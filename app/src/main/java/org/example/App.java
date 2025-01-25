@@ -1,8 +1,17 @@
 package org.example;
 import java.lang.Runtime;
-
+/**
+ * @author Devin Schutz
+ * This program gives the user information about their system based on what they request.
+ */
 public class App {
+    /**
+     * Returns the requested information from the user
+     * @param arg - The requested information type
+     * @return - THe requested information
+     */
     public static String getProperties(String arg) {
+        // this will give us CPU and memory stats
         Runtime runtime = Runtime.getRuntime();
         switch (arg) {
             case "-mem":
