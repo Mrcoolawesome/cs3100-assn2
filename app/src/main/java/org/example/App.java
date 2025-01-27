@@ -40,7 +40,12 @@ public class App {
 
     public static void main(String[] args) {
         for (String arg : args) {
-            System.out.println(getProperties(arg));
+           String output = getProperties(arg);
+            if (output == "") { 
+                continue; // don't print anything at all if we don't recognize the argument
+            } else {
+                System.out.println(output); // print out the desired output
+            }
         }
     }
 }
