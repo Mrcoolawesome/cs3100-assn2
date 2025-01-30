@@ -1,10 +1,9 @@
-package org.example;
 import java.lang.Runtime;
 /**
  * @author Devin Schutz
  * This program gives the user information about their system based on what they request.
  */
-public class App {
+public class assn2 {
     /**
      * Returns the requested information from the user
      * @param arg - The requested information type
