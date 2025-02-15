@@ -3,7 +3,7 @@ import java.lang.Runtime;
  * @author Devin Schutz
  * This program gives the user information about their system based on what they request.
  */
-public class assn2 {
+public class Assn2 {
     /**
      * Returns the requested information from the user
      * @param arg - The requested information type

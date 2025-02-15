@@ -10,11 +10,6 @@ plugins {
     id 'application'
 }
 
-repositories {
-    // Use Maven Central for resolving dependencies.
-    mavenCentral()
-}
-
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
@@ -24,7 +19,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'assn2'
+    mainClass = 'Assn2'
 }
 
 run {
